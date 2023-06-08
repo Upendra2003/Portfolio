@@ -1,0 +1,162 @@
+.about-section{
+    background-color: #393131;
+    height: 130vh;
+}
+
+.wrapper-picborder{
+    width: 268px;
+    height: 268px;
+    background-image: linear-gradient(to right,#00B2FF,#8FFCFF);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.picBorder{
+    width: 263px;
+    height: 263px;
+    background-color: #393131;
+}
+
+.img{
+    width: 268px;
+    height: 268px;
+    background-color: white;
+    margin: 20px;
+}
+
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.right{
+    margin: 40px;
+    padding: 40px;
+}
+
+.description h2{
+    background: -webkit-linear-gradient(#8FFCFF, #00B2FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight:500;
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.description span{
+    background: -webkit-linear-gradient(#8FFCFF, #00B2FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.description p{
+    margin: 5px;
+}
+
+.download-btn{
+    width: 269px;
+    height: 49px;
+    background-image: linear-gradient(to right,#00B2FF,#8FFCFF);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 40px 0 0 0;
+    font-size: 15px;
+}
+
+.download-btn img{
+    width: 30px;
+    margin: 0 10px 0 0;
+}
+
+.interests{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 50px 0 0 0;
+}
+
+.interests h2{
+    background: -webkit-linear-gradient(#8FFCFF, #00B2FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight:500;
+    font-size: 30px;
+    margin: 20px 0 50px 86px;
+}
+
+.images{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.images img{
+    width: 65px;
+    height: 65px;
+}
+
+@media only screen and (max-width: 750px){
+    .about-section{
+        height: 130vh;
+    }
+
+    .about-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .wrapper-picborder{
+        width: 260px;
+        height: 260px;
+    }
+    
+    .picBorder{
+        width: 255px;
+        height: 255px;
+    }
+    
+    .img{
+        width: 260px;
+        height: 260px;
+    }
+
+    .download-btn{
+        width: 260px;
+        height: 49px;
+    }
+
+    .right{
+        margin: -10px 40px;
+        padding: 5px;
+    }
+
+    .description span{
+        font-size: 15px;
+    }
+    
+    .description p{
+        font-size: 14px;
+    }
+
+    .interests h2{
+        font-weight:400;
+        font-size: 25px;
+        margin: 20px auto;
+    }
+    
+    .images{
+        margin: 0 5px;
+    }
+
+    .images img{
+        width: 40px;
+        height: 40px;
+    }
+    
+    
+}
+
