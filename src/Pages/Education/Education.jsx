@@ -19,8 +19,8 @@ export default function Education() {
                             className="vertical-timeline-element--education" 
                             key={detail.key}
                             date={detail.date}
-                            contentStyle={{background:"#414853"}}
-                            contentArrowStyle={{ borderRight: '7px solid  #414853' }}
+                            contentStyle={{background:"#393131"}}
+                            contentArrowStyle={{ borderRight: '7px solid  #393131' }}
                             dateClassName='date'
                             iconStyle={educationIconStyle}
                             icon={<LuGraduationCap/>}

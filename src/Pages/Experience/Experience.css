@@ -1,6 +1,6 @@
-.education-section{
-    background-color: #414853;
-    height: 120vh;
+.experience-section{
+    background-color: #393131;
+    height: 125vh;
     width: 100%;
 }
 
@@ -23,21 +23,25 @@
     margin: 10px 0;
 }
 
-.education-description{
+.experience-description{
     font-size: 15px;
     font-weight: 300;
 }
 
+.date{
+    font-weight: bold;
+}
+
 @media only screen and (max-width: 750px){
-    .education-section{
-        height: 115vh;
+    .experience-section{
+        height: 120vh;
     }
 
     .title{
         font-size: 20px;
         font-weight: 300;
     }
-    .education-description{
+    .experience-description{
         font-size: 16px;
         font-weight: 200;
     }
