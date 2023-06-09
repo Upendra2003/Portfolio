@@ -6,7 +6,7 @@ import Interests from '../../Components/Interests/Interests'
 export default function About() {
   return (
     <>
-        <div className="about-section text-white">
+        <div className="about-section text-white" id='about'>
             <div className="about-container">
                 <div className="left">
                     <div className="wrapper-picborder">

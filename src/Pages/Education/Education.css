@@ -1,0 +1,45 @@
+.education-section{
+    background-color: #414853;
+    height: 130vh;
+    width: 100%;
+}
+
+.heading{
+    background: -webkit-linear-gradient(#8FFCFF, #00B2FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight:500;
+    font-size: 30px;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.title{
+    background: -webkit-linear-gradient(#8FFCFF, #00B2FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+    font-size: 23px;
+    margin: 10px 0;
+}
+
+.education-description{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+@media only screen and (max-width: 750px){
+    .education-section{
+        height: 115vh;
+    }
+
+    .title{
+        font-size: 20px;
+        font-weight: 300;
+    }
+    .education-description{
+        font-size: 16px;
+        font-weight: 200;
+    }
+    
+}

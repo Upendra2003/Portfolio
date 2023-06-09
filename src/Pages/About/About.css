@@ -1,6 +1,6 @@
 .about-section{
     background-color: #393131;
-    height: 130vh;
+    height: 125vh;
 }
 
 .wrapper-picborder{
@@ -53,6 +53,7 @@
 
 .description p{
     margin: 5px;
+    font-weight: 300;
 }
 
 .download-btn{
@@ -95,8 +96,8 @@
 }
 
 .images img{
-    width: 65px;
-    height: 65px;
+    width: 55px;
+    height: 55px;
 }
 
 @media only screen and (max-width: 750px){
@@ -140,6 +141,7 @@
     
     .description p{
         font-size: 14px;
+        font-weight: 200;
     }
 
     .interests h2{

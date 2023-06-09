@@ -10,8 +10,8 @@ import '../../Pages/Home/Home.css'
 export default function Sidebar() {
   return (
     <div className='text-3xl m-10 p-10 icons'>
-      <VscAccount className='icon' />
-      <LuGraduationCap className='icon'/>
+      <a href="#about"><VscAccount className='icon' /></a>
+      <a href="#education"><LuGraduationCap className='icon'/></a>
       <MdWorkOutline className='icon'/>
       <RiUserSettingsLine className='icon'/>
       <BsTelephone className='icon'/>
