@@ -14,7 +14,7 @@ export default function Sidebar() {
       <a href="#education"><LuGraduationCap className='icon'/></a>
       <a href="#experience"><MdWorkOutline className='icon'/></a>
       <a href="#skills"><RiUserSettingsLine className='icon'/></a>
-      <BsTelephone className='icon'/>
+      <a href="#contact"><BsTelephone className='icon'/></a>
     </div>
   )
 }
