@@ -13,7 +13,7 @@ export default function Sidebar() {
       <a href="#about"><VscAccount className='icon' /></a>
       <a href="#education"><LuGraduationCap className='icon'/></a>
       <a href="#experience"><MdWorkOutline className='icon'/></a>
-      <RiUserSettingsLine className='icon'/>
+      <a href="#skills"><RiUserSettingsLine className='icon'/></a>
       <BsTelephone className='icon'/>
     </div>
   )

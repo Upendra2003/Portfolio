@@ -17,7 +17,7 @@ export default function Education() {
                     return(
                         <VerticalTimelineElement   
                             className="vertical-timeline-element--education" 
-                            key={detail.key}
+                            key={detail.id}
                             date={detail.date}
                             contentStyle={{background:"#393131"}}
                             contentArrowStyle={{ borderRight: '7px solid  #393131' }}
