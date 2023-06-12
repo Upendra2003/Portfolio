@@ -2,6 +2,7 @@ import React from 'react'
 import './About.css'
 import cloudDownloadImg from '../../Assets/Download.svg'
 import Interests from '../../Components/Interests/Interests'
+import Profile from '../../Assets/Profile.jpg'
 
 export default function About() {
   return (
@@ -11,7 +12,7 @@ export default function About() {
                 <div className="left">
                     <div className="wrapper-picborder">
                         <div className="picBorder">
-                            <div className="img"></div>
+                            <img className='img' src={Profile} alt="" />
                         </div>
                     </div>
                     <div className="download-btn">

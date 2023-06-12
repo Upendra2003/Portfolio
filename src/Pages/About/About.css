@@ -23,6 +23,7 @@
     height: 268px;
     background-color: white;
     margin: 20px;
+    background-size: cover;
 }
 
 .about-container{
@@ -49,6 +50,7 @@
     background: -webkit-linear-gradient(#8FFCFF, #00B2FF);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    /* font-weight: 500; */
 }
 
 .description p{
@@ -133,6 +135,7 @@
 
     .description span{
         font-size: 15px;
+        font-weight: 300;
     }
     
     .description p{

@@ -1,13 +1,9 @@
 .contact-section{
     background-color: #393131;
+    padding: 15px 0;
 }
 
-.heading{
-    background: -webkit-linear-gradient(#8FFCFF, #00B2FF);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight:500;
-    font-size: 30px;
-    padding: 40px 0;
-    text-align: center;
+.msg-para{
+    color: white;
+    padding: 10px;
 }
