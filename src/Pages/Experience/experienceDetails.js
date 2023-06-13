@@ -8,7 +8,7 @@ let experienceDetails=[
     {
         id:2,
         title: "BLOCKENZYME",
-        description: "I successfully completed my 2.5 months of internship where we have to work on web design for the company wesite.",
+        description: "My internship experience as a web designer was enriching and empowering, allowing me to apply my knowledge in a professional environment, develop strong communication and teamwork skills, and gain insights into the practical aspects of web design.",
         date: "5Th Feb 2023 - 5th  June 2023"
     },
     {

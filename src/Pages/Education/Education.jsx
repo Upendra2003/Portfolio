@@ -26,7 +26,7 @@ export default function Education() {
                             icon={<LuGraduationCap/>}
                         >
                         <h1 className='title'>{detail.title}</h1>
-                        <h4 className='education-description'>{detail.description}</h4>
+                        <h4 className='education-description'>{detail.institute}</h4>
                         </VerticalTimelineElement>
                     )
                 })

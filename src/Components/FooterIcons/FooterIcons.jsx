@@ -7,7 +7,7 @@ import { AiOutlineGithub } from 'react-icons/ai';
 export default function FooterIcons() {
   return (
     <>
-      <div className='text-2xl  flex text-white footer-icons'>
+      <div className='text-2xl flex text-white footer-icons'>
         <div className="circle">
             <a href="https://www.instagram.com/upendra.10"><AiOutlineInstagram/></a>
         </div>
