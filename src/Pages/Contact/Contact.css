@@ -23,10 +23,16 @@ form input{
 
 .name{
     width: 350px;
+    padding: 8px;
+    margin-top: 8px;
+    outline: transparent;
 }
 
 .msg{
     width: 700px;
+    padding: 8px;
+    margin-top: 8px;
+    outline: transparent;
 }
 
 .send-btn{
@@ -54,4 +60,65 @@ form input{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.line{
+    width: 100%;
+    background-color: white;
+    height: 0.5px;
+    margin: 10px 0 4px 0;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: row;
+}
+
+.name-input,.msg-input{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+
+@media only screen and (max-width: 750px){
+    .heading{
+        margin-top: -10px;
+        margin-bottom: -20px;
+    }
+    .msg-para{
+        font-weight: 100;
+        padding: 15px ;
+    }
+    .contact-section{
+        padding: 5px;
+    }
+    form{
+        padding: 0px;
+    }
+    .inputs{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .name,.msg{
+        width: 270px;
+        padding: 6px;
+    }
+
+    .name-input,.msg-input{
+        margin: 10px auto;
+    }
+
+    .send-btn{
+        width: 270px;
+        height: 50px;
+        margin: 15px auto;
+    }
+
+    .footer-icons{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
 }
