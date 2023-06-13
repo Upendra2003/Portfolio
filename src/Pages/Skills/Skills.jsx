@@ -21,7 +21,7 @@ export default function Skills() {
     <>
       <div className="skills-section" id='skills'>
         <h2 className='heading'>PROFESSIONAL SKILLS</h2>
-        <div className="skills-logos-grid">
+        <div className="skills-logos-grid pb-10">
             <img src={c} alt="" />
             <img src={cpp} alt="" />
             <img src={py} alt="" />

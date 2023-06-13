@@ -1,9 +1,57 @@
 .contact-section{
     background-color: #393131;
-    padding: 15px 0;
+    padding: 15px 0 0 0;
 }
 
 .msg-para{
     color: white;
-    padding: 10px;
+    padding: 10px 100px ;
+    text-align: center;
+    font-weight: 300;
+}
+
+form{
+    color: #00B2FF;
+    width: 100%;
+    padding: 0 0 0 30px;
+}
+
+form input{
+    background-color: #393131;
+    border: 1px solid #00B2FF;
+}
+
+.name{
+    width: 350px;
+}
+
+.msg{
+    width: 700px;
+}
+
+.send-btn{
+    background-image: linear-gradient(to right,#00B2FF,#8FFCFF);
+    color: white;
+    width: 300px;
+    height: 50px;
+    margin: 5px auto;
+}
+
+.circle{
+    background-image: linear-gradient(to right,#00B2FF,#8FFCFF);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

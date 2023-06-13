@@ -6,9 +6,9 @@ import { AiOutlineGithub } from 'react-icons/ai';
 export default function SocialMedia() {
   return (
     <div className='text-2xl ml-12 flex'>
-      <AiOutlineInstagram className='ml-3 cursor-pointer'/>
-      <AiOutlineLinkedin className='ml-3 cursor-pointer'/>
-      <AiOutlineGithub className='ml-3 cursor-pointer'/>
+      <a href=""><AiOutlineInstagram className='ml-3 cursor-pointer'/></a>
+      <a href="https://www.linkedin.com/in/karimi-upendra/"><AiOutlineLinkedin className='ml-3 cursor-pointer'/></a>
+      <a href="https://github.com/Upendra2003"><AiOutlineGithub className='ml-3 cursor-pointer'/></a>
     </div>
   )
 }
