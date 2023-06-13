@@ -5,7 +5,7 @@ import Education from './Pages/Education/Education'
 import Experience from './Pages/Experience/Experience'
 import Skills from './Pages/Skills/Skills'
 import Contact from './Pages/Contact/Contact'
-
+import ScrollToTop from '../src/Components/ScrollToTop/ScrollToTop'
 
 export default function App() {
   return (
@@ -16,6 +16,7 @@ export default function App() {
       <Experience/>
       <Skills/>
       <Contact/>
+      <ScrollToTop/>
     </>
   )
 }

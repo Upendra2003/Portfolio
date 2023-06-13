@@ -4,6 +4,7 @@ import FooterIcons from '../../Components/FooterIcons/FooterIcons'
 import Footer from '../../Components/Footer/Footer'
 import axios from 'axios'
 
+
 export default function Contact() {
   const [data,setData]=useState({
     name:'',
