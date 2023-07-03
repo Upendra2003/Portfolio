@@ -1,8 +1,10 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './Contact.css'
 import FooterIcons from '../../Components/FooterIcons/FooterIcons'
 import Footer from '../../Components/Footer/Footer'
 import emailjs from 'emailjs-com';
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 
 export default function Contact() {
@@ -24,12 +26,15 @@ export default function Contact() {
       });
       e.target.reset();
   }
+  useEffect(()=>{
+    AOS.init({duration:2000})
+  })
   return (
     <>
       <div className="contact-section" id='contact'>
-        <h2 className='heading'>LET’S CONNECT !</h2>
-        <p className='msg-para'>Thank you for your interest and for taking the time to connect. I look forward to hearing from you and discussing how we can make your web design and development aspirations a reality! </p>
-        <form onSubmit={sendEmail} className='flex w-full flex-col'>
+        <h2 className='heading' data-aos='fade-right'>LET’S CONNECT !</h2>
+        <p className='msg-para' data-aos='fade-left'>Thank you for your interest and for taking the time to connect. I look forward to hearing from you and discussing how we can make your web design and development aspirations a reality! </p>
+        <form onSubmit={sendEmail} className='flex w-full flex-col' data-aos='fade-right'>
           <div className='inputs'>
             <div className="name-input">
               <label>Name</label>
