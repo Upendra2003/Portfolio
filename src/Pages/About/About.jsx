@@ -1,15 +1,20 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './About.css'
 import cloudDownloadImg from '../../Assets/Download.svg'
 import Interests from '../../Components/Interests/Interests'
 import Profile from '../../Assets/Profile.jpg'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 export default function About() {
+    useEffect(()=>{
+        AOS.init({duration:2000})
+    })
   return (
     <>
         <div className="about-section text-white" id='about'>
             <div className="about-container">
-                <div className="left">
+                <div className="left" data-aos='fade-right'>
                     <div className="wrapper-picborder">
                         <div className="picBorder">
                             <img className='img' src={Profile} alt="" />
@@ -20,7 +25,7 @@ export default function About() {
                         <button className=' font-semibold'>Download Resume</button>
                     </div>
                 </div>
-                <div className="right">
+                <div className="right" data-aos='fade-left'>
                     <div className="description ">
                         <h2>ABOUT ME</h2>
                         <p>Hello everyone, I am Upendra currently pursuing my 2nd year bachelor's degree from IIIT Bhubaneswar.Passionate programmer and problem solver, dedicated to crafting elegant and efficient solutions. I constantly explore new technologies and frameworks to stay at the forefront of innovation. </p>
@@ -32,7 +37,9 @@ export default function About() {
                     </div>
                 </div>
             </div>
-            <Interests/>
+            <div data-aos='fade-zoom-in'>
+                <Interests/>
+            </div>
         </div>
     </>
   )
