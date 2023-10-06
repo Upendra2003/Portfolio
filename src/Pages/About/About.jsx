@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react'
 import './About.css'
 import cloudDownloadImg from '../../Assets/Download.svg'
-import Interests from '../../Components/Interests/Interests'
 import Profile from '../../Assets/Profile.jpg'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import Resume from '../../Assets/Resume.pdf'
 
 export default function About() {
     useEffect(()=>{
@@ -22,7 +22,7 @@ export default function About() {
                     </div>
                     <div className="download-btn">
                         <img src={cloudDownloadImg} alt="downloadImg" />
-                        <button className=' font-semibold'>Download Resume</button>
+                        <button className=' font-semibold' ><a href={Resume} download="Resume" target='_blank' >Download Resume</a></button>
                     </div>
                 </div>
                 <div className="right" data-aos='fade-left'>
@@ -36,9 +36,6 @@ export default function About() {
                         <p><span>E-MAIL: </span>upendrakarimi2003@gmail.com</p>
                     </div>
                 </div>
-            </div>
-            <div data-aos='fade-zoom-in'>
-                <Interests/>
             </div>
         </div>
     </>

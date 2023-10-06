@@ -14,23 +14,55 @@
 
 .skills-logos-grid{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    margin: 20px 0 0 90px;
-    grid-gap: 50px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     
 }
 
-.skills-logos-grid img{
-    width: 80px;
+.skill-title{
+    color: #00B2FF;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.skill-name{
+    color: white;
+
+}
+
+.languages{
+    margin-left: 80px;
+    margin-top: 80px;
+}
+
+.design{
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 80px;
+}
+.backend{
+    margin-left: 80px;
+}
+.frontend{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.vc{
+    margin-left: 80px;
 }
 
 @media only screen and (max-width: 750px){
     .skills-logos-grid{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-        grid-gap: 50px;
-        margin: 0 50px ;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
     }
+
+    .languages,.design,.backend,.frontend,.vc{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 5px;
+    }
+    
 }
