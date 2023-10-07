@@ -3,7 +3,6 @@ import './Skills.css'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import Progress_bar from '../../Components/Progress_Bar/Progress_Bar'
-import './skills.css'
 
 export default function Skills() {
   useEffect(()=>{
