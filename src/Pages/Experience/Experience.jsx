@@ -32,6 +32,7 @@ export default function Education() {
                 })
             }
         </VerticalTimeline>
+        <h2 className='heading' data-aos='fade-left'>PROFESSIONAL SKILLS</h2>
       </div>
     </>
   )
