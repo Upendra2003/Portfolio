@@ -5,6 +5,7 @@ import About from './Pages/About/About'
 import Education from './Pages/Education/Education'
 import Experience from './Pages/Experience/Experience'
 import Skills from './Pages/Skills/Skills'
+import Projects from './Pages/Projects/Projects'
 import Contact from './Pages/Contact/Contact'
 import ScrollToTop from '../src/Components/ScrollToTop/ScrollToTop'
 import GridLoader from "react-spinners/GridLoader";
@@ -30,6 +31,7 @@ export default function App() {
           <Education/>
           <Experience/>
           <Skills/>
+          <Projects/>
           <Contact/>
           <ScrollToTop/>
         </>

@@ -121,7 +121,7 @@ export default function Skills() {
             <div className="vc ml-20">
                     <h2 className='skill-title' data-aos='fade-down'>VERSION CONTROL</h2>                    
                     <div className="lang-grid">
-                      <div className=" mb-3" data-aos='fade-right'>
+                      <div className=" mb-6" data-aos='fade-right'>
                         <h3 className='skill-name'>GIT</h3>
                         <Progress_bar progress='94'  height={6} />
                       </div>
