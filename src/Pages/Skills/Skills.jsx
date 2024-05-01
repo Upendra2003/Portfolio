@@ -12,6 +12,7 @@ export default function Skills() {
   return (
     <>
       <div className="skills-section" id='skills'>
+      <h2 className='heading' data-aos='fade-left'>PROFESSIONAL SKILLS</h2>
         <div className="skills-logos-grid" >
 
             {/* Languages */}
@@ -61,10 +62,6 @@ export default function Skills() {
             <div className="backend ml-20 mt-0">
                     <h2 className='skill-title' data-aos='fade-down'>BACKEND DEVELOPMENT</h2>                    
                     <div className="lang-grid">
-                      <div className="python mb-3" data-aos='fade-right'>
-                        <h3 className='skill-name'>PYTHON</h3>
-                        <Progress_bar progress='90'  height={6} />
-                      </div>
                       <div className="flask mb-3" data-aos='fade-right'>
                         <h3 className='skill-name'>FLASK</h3>
                         <Progress_bar progress='92'  height={6} />
@@ -94,7 +91,7 @@ export default function Skills() {
                         <Progress_bar progress='90'  height={6} />
                       </div>
                       <div className=" mb-3" data-aos='fade-left'>
-                        <h3 className='skill-name'>css</h3>
+                        <h3 className='skill-name'>CSS</h3>
                         <Progress_bar progress='90'  height={6} />
                       </div>
                       <div className=" mb-3" data-aos='fade-left'>
@@ -116,9 +113,27 @@ export default function Skills() {
                     </div>
             </div>
 
+            {/* Frontend Skills */}
+            <div className="frontend ml-20 mr-20 ">
+                    <h2 className='skill-title' data-aos='fade-down'>MACHINE LEARNING</h2>                    
+                    <div className="lang-grid">
+                      <div className=" mb-3" data-aos='fade-left'>
+                        <h3 className='skill-name' >MACHINE LEARNING</h3>
+                        <Progress_bar progress='92'  height={6} />
+                      </div>
+                      <div className=" mb-3" data-aos='fade-left'>
+                        <h3 className='skill-name'>DEEP LEARNING</h3>
+                        <Progress_bar progress='87'  height={6} />
+                      </div>
+                      <div className=" mb-3" data-aos='fade-left'>
+                        <h3 className='skill-name'>NLP</h3>
+                        <Progress_bar progress='91'  height={6} />
+                      </div>
+                    </div>
+            </div>
 
             {/* Version Control Skills */}
-            <div className="vc ml-20">
+            <div className="vc ml-20 mr-20">
                     <h2 className='skill-title' data-aos='fade-down'>VERSION CONTROL</h2>                    
                     <div className="lang-grid">
                       <div className=" mb-6" data-aos='fade-right'>

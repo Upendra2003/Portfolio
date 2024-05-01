@@ -16,7 +16,10 @@ export default function Projects() {
                         <div className="project-container">
                             <h4><b>{detail.title}</b></h4> 
                             <p className=' text-white'>{detail.desc}</p> 
-                            <a href={detail.source_code}>Source Code&#8599;</a> 
+                            <div className='flex mt-4'>
+                              <a className='mr-5 cursor-pointer' href={detail.source_code}>Source Code&#8599;</a> 
+                              <a className='cursor-pointer' href={detail.link}>Link&#8599;</a>  
+                            </div> 
                         </div>
                     </div>
                 )

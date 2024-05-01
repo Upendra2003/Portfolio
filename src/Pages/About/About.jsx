@@ -4,7 +4,7 @@ import cloudDownloadImg from '../../Assets/Download.svg'
 import Profile from '../../Assets/Profile.jpg'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
-import Resume from '../../Assets/Resume.pdf'
+import Resume from '../../Assets/ML_Resume.pdf'
 
 export default function About() {
     useEffect(()=>{
