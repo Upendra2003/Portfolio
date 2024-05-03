@@ -28,7 +28,7 @@ export default function About() {
                 <div className="right" data-aos='fade-left'>
                     <div className="description ">
                         <h2>ABOUT ME</h2>
-                        <p>Hello everyone, I am Upendra currently pursuing my 2nd year bachelor's degree from IIIT Bhubaneswar.Passionate programmer and problem solver, dedicated to crafting elegant and efficient solutions. I constantly explore new technologies and frameworks to stay at the forefront of innovation. </p>
+                        <p>Hello everyone, I am Upendra currently pursuing my pre-year bachelor's degree from IIIT Bhubaneswar.Passionate programmer and problem solver, dedicated to crafting elegant and efficient solutions. I constantly explore new technologies and frameworks to stay at the forefront of innovation. </p>
                         <p><span>NAME: </span>Upendra</p>
                         <p><span>DATE OF BIRTH: </span>10 November 2003</p>
                         <p><span>NATIONALITY: </span>Indian</p>
