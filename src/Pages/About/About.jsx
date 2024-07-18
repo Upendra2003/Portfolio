@@ -4,7 +4,7 @@ import cloudDownloadImg from '../../Assets/Download.svg'
 import Profile from '../../Assets/Profile.jpg'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
-import Resume from '../../Assets/ML_Resume.pdf'
+import Resume from '../../Assets/Upendra_SDE_Resume.pdf'
 
 export default function About() {
     useEffect(()=>{
@@ -28,7 +28,7 @@ export default function About() {
                 <div className="right" data-aos='fade-left'>
                     <div className="description ">
                         <h2>ABOUT ME</h2>
-                        <p>Hello everyone, I am Upendra currently pursuing my pre-year bachelor's degree from IIIT Bhubaneswar.Passionate programmer and problem solver, dedicated to crafting elegant and efficient solutions. I constantly explore new technologies and frameworks to stay at the forefront of innovation. </p>
+                        <p>Hello everyone, I am Upendra, currently pursuing my final year bachelor's degree from IIIT Bhubaneswar. I am a passionate Django developer, machine learning and deep learning enthusiast, and an avid problem solver. Dedicated to crafting elegant and efficient solutions, I enjoy working in teams and continuously exploring new technologies and frameworks to stay at the forefront of innovation.</p>
                         <p><span>NAME: </span>Upendra</p>
                         <p><span>DATE OF BIRTH: </span>10 November 2003</p>
                         <p><span>NATIONALITY: </span>Indian</p>
